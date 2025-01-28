@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+    <script src="js/aos.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/splide.min.js"></script>
+    <script src="js/splide.min.js.map"></script>
+</head>
+<style>
+    .bg-color {
+        background-color: #06798C;
+    }
+
+    .text-color {
+        color: #06798C;
+    }
+    .img-hover {
+        transition: .6s;
+    }
+
+    .img-hover:hover {
+        transform: scale(1.03);
+        transition: .6s all;
+        cursor: pointer;
+        filter: contrast(1.2);
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-color bg-opacity-50 fixed-top shadow-sm" aria-label="Navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/female-avatar.png" alt="" class="img-fluid bg-color" style="max-height:3rem;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item px-md-3 px-sm-1">
+                        <a class="nav-link" href="#">Studio</a>
+                    </li>
+                    <li class="nav-item px-md-3 px-sm-1">
+                        <a class="nav-link" href="#">Our Works</a>
+                    </li>
+                    <li class="nav-item px-md-3 px-sm-1">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item ps-md-3 px-sm-1">
+                        <a class="btn btn-outline-warning px-4 rounded-5" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-color text-light">
+        <div class="container text-right">
+            <div class="py-lg-5 py-sm-3">
+                <div class="row my-5 py-5">
+                    <div class="col-lg-7 col-sm-5">
+                        <div class="col-7  my-5">
+                            <div class="fs-1 py-lg-3 py-sm-1">We are ready for your digital marketing </div>
+                            <a href="" class="btn btn-light rounded-5 py-2 py-sm-1 px-4 px-sm-2 fs-6 text-color my-3 ">Let us discuss
+                                together!</a>
+                            <div class="fs-6 mx-lg-4 mx-sm-2   ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                                </svg> + 99 080 070 4224
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-3"><img src="img/working-girl.png" alt="" class="img-fluid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="py-lg-5 my-5 py-sm-3">
+            <div class="d-flex justify-content-center text-rihgt">
+                <div class="col-lg-5 col-sm-2">
+                    <div class="col-9 fs-2 lh-2">the best <span class="text-warning">
+                        Digital Marketing agency</span> in Rio De Janearo
+                    </div>
+                    <div class="col-12 fs-6 text-secondary text-opacity-50 py-3 ">
+                        Total 5 HTML pages are included in this template from TemplateMO website.
+                        Please check 2 blog pages,project page and contact page.
+                    </div>
+                    <div class="col-12 fs-6 text-secondary text-opacity-50 py-3 ">
+                        You are <span class="text-warning">allowed</span> to use this temlate for commercial or non-commercial
+                        purpose.You are NOT allowed to redistribute the template ZIP file on template collection
+                        websites
+                    </div>
+                    <div><img src="img/office.png" alt="" class="img-fluid"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="bg-secondary bg-opacity-10">
+        <div class="container">
+            <div class="py-5 my-5">
+                <div class="d-flex justify-content-center">
+                    <div class="col-md-5 col-sm-2">
+                        <div class="col-12">
+                            <div class="text-center text-black fs-2">
+                                Please take a look through our
+                                <span class="text-warning">
+                                    featured Digital trends
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="splide" id="projects-splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            
+                            <li class="splide__slide">
+                                <div class="img-hover img-hover:hover">
+                                    <div class="py-4 position-relative d-inline-block">
+                                        <img src="img/project/project-image01.jpg" alt="" class="img-fluid rounded-2">
+                                        <div class="position-absolute bottom-0 start-50 w-75 translate-middle-x bg-white m-3 mb-5 rounded-2">
+                                            <div class="row m-4 g">
+                                                <div class="col-11">
+                                                    <div class="col-5 ">
+                                                        <div class="h5 text-secondary text-opacity-50">
+                                                            Social Media
+                                                        </div>
+                                                        <div class="h3 text-color">
+                                                            Race Bicycle
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1">
+                                                    <a href=""><i class="bi bi-arrow-right-circle-fill fs-1"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="img-hover img-hover:hover">
+                                    <div class="py-4 position-relative d-inline-block">
+                                        <img src="img/project/project-image05.jpg" alt="" class="img-fluid rounded-2">
+                                        <div class="position-absolute bottom-0 start-50 w-75 translate-middle-x bg-white m-3 mb-5 rounded-2">
+                                            <div class="row m-4 ">
+                                                <div class="col-11">
+                                                    <div class="col-5">
+                                                        <div class="h5 text-secondary text-opacity-50">
+                                                            Video
+                                                        </div>
+                                                        <div class="h3 text-color">
+                                                            Ultimate HealthCare
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1">
+                                                    <a href=""><i class="bi bi-arrow-right-circle-fill fs-1"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="img-hover img-hover:hover">
+                                    <div class="py-4 position-relative d-inline-block">
+                                        <img src="img/project/project-image03.jpg" alt="" class="img-fluid rounded-2">
+                                        <div class="position-absolute bottom-0 start-50 w-75 translate-middle-x bg-white m-3 mb-5 rounded-2">
+                                            <div class="row m-4 ">
+                                                <div class="col-11">
+                                                    <div class="col-5">
+                                                        <div class="h5 text-secondary text-opacity-50">
+                                                            Social Media
+                                                        </div>
+                                                        <div class="h3 text-color">
+                                                            Race Bicycle
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1">
+                                                    <a href=""><i class="bi bi-arrow-right-circle-fill fs-1"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="img-hover img-hover:hover">
+                                    <div class="py-4 position-relative d-inline-block">
+                                        <img src="img/project/project-image04.jpg" alt="" class="img-fluid rounded-2">
+                                        <div class="position-absolute bottom-0 start-50 w-75 translate-middle-x bg-white m-3 mb-5 rounded-2">
+                                            <div class="row m-4 ">
+                                                <div class="col-11">
+                                                    <div class="col-5">
+                                                        <div class="h5 text-secondary text-opacity-50">
+                                                            Video
+                                                        </div>
+                                                        <div class="h3 text-color">
+                                                            Ultimate HealthCare
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-1">
+                                                    <a href=""><i class="bi bi-arrow-right-circle-fill fs-1"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        var splide = new Splide('#projects-splide', {
+                            type: 'loop',
+                            perMove: 1,
+                            perPage: 1,
+                            gap: '1.5rem',
+                            padding: '15rem',
+                            autoplay: true,
+                            interval: 5000,
+                            arrows: false,
+                            breakpoints:{
+                                1200:{
+                                    perPage:1,
+                                    gap:'1rem'
+                                },
+                                900:{
+                                    perPage:1,
+                                    gap:'0.7rem'
+                                },
+                                768: {
+                                    perPage:1,
+                                    gap:'0.5rem'
+                                },
+                                480:{
+                                    perPage:1,
+                                    gap:'0.3rem'
+                                }
+                            }
+                        });
+                        splide.mount();
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="py-lg-5 py-sm-2 my-lg-5 my-sm-2">
+            <div class="d-flex text-right">
+                <div class="col-md-5 col-sm-12"><img src="img/female-avatar.png" alt="" class="img-fluid"></div>
+                <div class="col-md-7 col-sm-12">
+                    <div class="col-lg-10 col-sm-12 py-lg-5 py-sm-2">
+                        <div class="text-secondary text-opacity-50 py-lg-3 py-sm-2 fs-5">CLIENT TESTIMONIALS</div>
+                        <div class="fs-3 py-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempora
+                            earum accusamus veniam nostrum modi deserunt exercitationem corporis quam.</div>
+                        <div class="fs-6 text-secondary text-opacity-50"><a href="" class="text-warning">MARY ZOE</a> /
+                            Digital Agency (COE) </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bg-black">
+        <div class="container">
+            <div class="py-5">
+                <div class="row g-3 my-lg-4 my-sm-2">
+                    
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="col-6 text-light fs-1">We make creative <span class="text-warning">brands</span>
+                            only</div>
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="fs-5 text-secondary text-opacity-70">CONTACT INFO</div>
+                        <div class="fs-6 ">
+                            <div class="mt-lg-3 mt-sm-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill text-warning" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                                </svg>
+                                <a href="" class="text-secondary text-opacity-50 link-underline link-underline-opacity-0">+99
+                                    080 070 4224</a>
+                            </div>
+                            <div class="my-lg-2 my-sm-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill text-warning" viewBox="0 0 16 16">
+                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                </svg>
+                                <a href="" class="text-secondary text-opacity-50 link-underline link-underline-opacity-0">hello@company.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="fs-5 text-secondary text-opacity-70">OUR STUDIO</div>
+                        <div class="fs-6 ">
+                            <div class="mt-lg-3 mt-sm-1">
+                                <i class="bi bi-house-door-fill text-warning fs-5"></i>
+                                <a href="" class="text-secondary text-opacity-50 link-underline link-underline-opacity-0">
+                                    Av. Lucio Costa - Barra da Tijuca, Rio de Janeiro - RJ, Brazil
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row g-3">
+                    
+                    <div class="col-sm-6 col-lg-5 text-secondary text-opacity-50 fs-6">
+                        Copyright @ 2020 Your Company
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg-4 fs-6 ">
+                        <a href="" class="link-underline link-underline-opacity-0  text-secondary text-opacity-50">Stories</a>
+                        <a href="" class="link-underline link-underline-opacity-0  text-secondary text-opacity-50 mx-5">Work with us</a>
+                        <a href="" class="link-underline link-underline-opacity-0  text-secondary text-opacity-50">Privacy</a>
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg-auto fs-6 ">
+                        <a href="" class="link-underline link-underline-opacity-0  text-secondary text-opacity-50 mx-1"><i class="bi bi-instagram"></i></a>
+                        <a href="" class="link-underline link-underline-opacity-0  text-secondary text-opacity-50 mx-1"><i class="bi bi-twitter"></i></a>
+                        <a href="" class="link-underline link-underline-opacity-0  text-secondary text-opacity-50 mx-1"><i class="bi bi-youtube"></i></a>
+                        <a href="" class="link-underline link-underline-opacity-0  text-secondary text-opacity-50 mx-1"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
