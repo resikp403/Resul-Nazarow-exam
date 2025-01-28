@@ -1,101 +1,63 @@
-@font-face {
-    font-family: 'Rubik';
+.lato-thin {
+    font-family: "Lato", serif;
+    font-weight: 100;
     font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", serif;
     font-weight: 300;
-    src: url('../font/Rubik-Light.ttf');
-}
-
-@font-face {
-    font-family: 'Rubik';
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", serif;
+    font-weight: 100;
     font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", serif;
     font-weight: 300;
-    src: url('../font/Rubik-LightItalic.ttf');
-}
-
-@font-face {
-    font-family: 'Rubik';
-    font-style: normal;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", serif;
     font-weight: 400;
-    src: url('../font/Rubik-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Rubik';
     font-style: italic;
-    font-weight: 400;
-    src: url('../font/Rubik-Italic.ttf');
-}
-
-@font-face {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../font/Rubik-Medium.ttf');
-}
-
-@font-face {
-    font-family: 'Rubik';
-    font-style: italic;
-    font-weight: 500;
-    src: url('../font/Rubik-MediumItalic.ttf');
-}
-
-@font-face {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 600;
-    src: url('../font/Rubik-SemiBold.ttf');
-}
-
-@font-face {
-    font-family: 'Rubik';
-    font-style: italic;
-    font-weight: 600;
-    src: url('../font/Rubik-SemiBoldItalic.ttf');
-}
-
-@font-face {
-    font-family: 'Rubik';
-    font-style: normal;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", serif;
     font-weight: 700;
-    src: url('../font/Rubik-Bold.ttf');
-}
-
-@font-face {
-    font-family: 'Rubik';
     font-style: italic;
-    font-weight: 700;
-    src: url('../font/Rubik-BoldItalic.ttf');
-}
-
-@font-face {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 800;
-    src: url('../font/Rubik-ExtraBold.ttf');
-}
-
-@font-face {
-    font-family: 'Rubik';
-    font-style: italic;
-    font-weight: 800;
-    src: url('../font/Rubik-ExtraBoldItalic.ttf');
-}
-
-@font-face {
-    font-family: 'Rubik';
-    font-style: normal;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", serif;
     font-weight: 900;
-    src: url('../font/Rubik-Black.ttf');
-}
-
-@font-face {
-    font-family: 'Rubik';
     font-style: italic;
-    font-weight: 900;
-    src: url('../font/Rubik-BlackItalic.ttf');
-}
+  }
 
-.font-rubik {
-    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+.font-lato {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
